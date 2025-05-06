@@ -1,7 +1,7 @@
 import * as Y from 'yjs'
 import { encodeAwarenessUpdate, applyAwarenessUpdate } from 'y-protocols/awareness.js'
 import { readSyncMessage, writeSyncStep1, writeSyncStep2, writeUpdate } from 'y-protocols/sync.js'
-import map from 'lib0/map'
+import * as map from 'lib0/map'
 import * as ws from 'ws'
 
 export const docs = new Map()
